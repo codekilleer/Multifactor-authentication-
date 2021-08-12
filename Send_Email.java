@@ -24,8 +24,8 @@ import javax.mail.internet.MimeMessage;
  */
 public class Send_Email extends Thread
 {
-    final String acc="ift.520.otp@gmail.com";
-    final String pass="Iftgmailpassword1!";
+    final String acc="<Enter Your Email>";
+    final String pass="<Enter your email password>";
     
     String to=null;
     String rno=null;
