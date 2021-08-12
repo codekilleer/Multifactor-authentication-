@@ -25,8 +25,8 @@ import javax.imageio.ImageIO;
  */
 public class SQL_File {
    
-    public static final String ACCOUNT_SID = "AC916ac97ec35dff05cb5890da5be037b0";
-    public static final String AUTH_TOKEN = "6ddbe4b8af896855edcf3101ace57c50";
+    public static final String ACCOUNT_SID = "<enter your credentials>";
+    public static final String AUTH_TOKEN = "<enter your credentials>";
     final String url = "jdbc:mysql://localhost:3306/ift520_2factor";
     final String user = "root";
     final String password = "";
