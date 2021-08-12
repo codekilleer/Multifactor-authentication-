@@ -16,8 +16,8 @@ import com.twilio.rest.api.v2010.account.Message;
 public class Send_SMS extends Thread{
     String rno=null;
     String clientphonenumber=null;
-    public static final String ACCOUNT_SID = "AC916ac97ec35dff05cb5890da5be037b0";
-    public static final String AUTH_TOKEN = "6ddbe4b8af896855edcf3101ace57c50";
+    public static final String ACCOUNT_SID = "<Enter your credentials>";
+    public static final String AUTH_TOKEN = "<Enter your credentials>";
     public Send_SMS(String rno, String clientphonenumber)
     {
         this.rno=rno;
